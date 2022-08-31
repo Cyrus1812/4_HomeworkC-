@@ -18,5 +18,4 @@ int GetSum(int sum)
     }
     return result;
 }
- int res = GetSum(num);
  Console.WriteLine($"Сумма чисел = {GetSum(num)}");
