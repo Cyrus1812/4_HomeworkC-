@@ -7,14 +7,6 @@ if (!NumberMassive || num < 1)
     return;
 }
 
-// Console.WriteLine("Введите массив: ");
-// bool Massive = int.TryParse(Console.ReadLine(), out int y);
-// if (!Massive || y < 1)
-// {
-//     Console.WriteLine("Число введено не верно");
-//     return;
-// }
-
 int[] Array(int x)
 {
 
@@ -32,7 +24,7 @@ void NewArray(int[] array)
     for (int i = 0; i < array.Length; i++)
     {
         Console.Write($"{array [i]}," );
-        
+
 
     }
 }
