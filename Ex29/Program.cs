@@ -23,8 +23,12 @@ void NewArray(int[] array)
     Console.Write("Массив равен: ");
     for (int i = 0; i < array.Length; i++)
     {
-        Console.Write($"{array [i]}," );
-
+        //$"{array [i]}
+        
+        string l = ($"{array [i]} ");
+        
+        Console.Write(l);
+         
 
     }
 }
