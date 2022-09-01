@@ -18,7 +18,6 @@ int GetCube(int num)
 
     if(y == 0)
     {
-        
         num = 1;
         return num;
     }
